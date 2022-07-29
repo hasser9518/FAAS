@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1056522437990",
+    "project_id": "faas-40b5c",
+    "storage_bucket": "faas-40b5c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056522437990:android:d466f5c384646711b874a7",
+        "android_client_info": {
+          "package_name": "com.ensightplus.faas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056522437990-ujnjnqa40ucb5co7v80qhqmp8tc6s620.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEReY9pcEaLSmr_XJr-HtteSKO9zT7500"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056522437990-ujnjnqa40ucb5co7v80qhqmp8tc6s620.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

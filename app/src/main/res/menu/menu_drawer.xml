@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_booking"
+            android:icon="@drawable/ic_history"
+            android:title="@string/title_tracking_history"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_notification"
+            android:visible="false"
+            android:title="@string/title_alerts" />
+        <item
+            android:id="@+id/nav_assets"
+            android:visible="false"
+            android:icon="@drawable/ic_vehicle"
+            android:title="@string/title_assets" />
+        <item
+            android:id="@+id/nav_coupon"
+            android:visible="false"
+            android:icon="@drawable/ic_driver"
+            android:title="@string/title_drivers" />
+        <item
+            android:id="@+id/nav_settings"
+            android:visible="false"
+            android:icon="@drawable/ic_location"
+            android:title="@string/title_locations" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_settings_new"
+            android:title="@string/title_settings" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about_new"
+            android:title="@string/title_about" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/title_logout" />
+    </group>
+
+</menu>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--ride class dummy data-->
+    <integer-array name="ride_image">
+        <item>@drawable/ride_economy</item>
+        <item>@drawable/ride_large</item>
+        <item>@drawable/ride_premium</item>
+    </integer-array>
+    <string-array name="ride_name">
+        <item>Economy</item>
+        <item>Large</item>
+        <item>Premium</item>
+    </string-array>
+    <string-array name="ride_price">
+        <item>$6.75</item>
+        <item>$10.4</item>
+        <item>$13.99</item>
+    </string-array>
+    <string-array name="ride_pax">
+        <item>1&#8211;4</item>
+        <item>1&#8211;6</item>
+        <item>1&#8211;3</item>
+    </string-array>
+    <string-array name="ride_duration">
+        <item>12</item>
+        <item>14</item>
+        <item>10</item>
+    </string-array>
+
+    <!--promo dummy data-->
+    <integer-array name="promo_icon">
+        <item>@drawable/ic_promo_coupon</item>
+        <item>@drawable/ic_promo_holiday</item>
+        <item>@drawable/ic_promo_coupon</item>
+        <item>@drawable/ic_promo_ride</item>
+    </integer-array>
+    <string-array name="promo_title">
+        <item>5% off Ride Economy Class</item>
+        <item>Holiday Promo $3.00 off</item>
+        <item>6% off Ride Large Class</item>
+        <item>10% off Ride Premium Class</item>
+    </string-array>
+    <string-array name="promo_date">
+        <item>16 Jun 18 &#8211; 7 Sep 19</item>
+        <item>7 Mei 18 &#8211; 22 Aug 18</item>
+        <item>1 Jul 18 &#8211; 31 Sep 18</item>
+        <item>10 Apr 18 &#8211; 8 Jan 19</item>
+    </string-array>
+    <string-array name="promo_code">
+        <item>PROMOECONOMY5</item>
+        <item>HOLIDAYRIDE</item>
+        <item>LARGERIDE</item>
+        <item>ENJOYPREMIUM</item>
+    </string-array>
+
+    <!--car location around dummy data-->
+    <string-array name="car_location">
+        <item>33.96759#-81.03117277777777</item>
+        <item>33.97790#-81.07379777777777</item>
+        <item>33.980380555555556#-81.08190055555555</item>
+        <item>34.008739999999996#-81.04937</item>
+        <item>34.02529055555556#-81.02839555555556</item>
+
+        <item>33.969185#-80.95062277777777</item>
+        <item>34.14570055555556#-80.92755055555556</item>
+        <item>33.85749777777778#-80.35093555555557</item>
+        <item>34.637525555555555#-82.13035555555555</item>
+        <item>34.66126277777778#-82.28684055555556</item>
+    </string-array>
+
+    <!--history booking dummy data-->
+    <string-array name="booking_status">
+        <item>ON GOING</item>
+
+        <item>FINISHED</item>
+        <item>CANCELED</item>
+        <item>FINISHED</item>
+        <item>FINISHED</item>
+        <item>FINISHED</item>
+    </string-array>
+    <string-array name="booking_date">
+        <item>7 April 2018</item>
+
+        <item>10 April 2018</item>
+        <item>13 April 2018</item>
+        <item>22 April 2018</item>
+        <item>8 May 2018</item>
+        <item>11 May 2018</item>
+    </string-array>
+    <string-array name="booking_pickup">
+        <item>The Army Museum, Paris</item>
+
+        <item>Le Centre Pompidou, Paris</item>
+        <item>Eiffel Tower, Paris</item>
+        <item>Pont Alexandre III, Paris</item>
+        <item>Paris Dauphine University</item>
+        <item>Jeu de Paume, Paris</item>
+    </string-array>
+    <string-array name="booking_destination">
+        <item>Homme Museum, Paris</item>
+
+        <item>Louis Vuitton Foundation</item>
+        <item>Le Palais des Congres, Paris</item>
+        <item>Place du Trocadero, Paris</item>
+        <item>The Dome of Paris</item>
+        <item>Place de la Bastille, Paris</item>
+    </string-array>
+    <string-array name="booking_time">
+        <item>7:46 PM</item>
+
+        <item>3:20 PM</item>
+        <item>8:11 PM</item>
+        <item>11:05 AM</item>
+        <item>7:49 AM</item>
+        <item>10:31 PM</item>
+    </string-array>
+    <string-array name="booking_ride_class">
+        <item>Premium</item>
+
+        <item>Economy</item>
+        <item>Economy</item>
+        <item>Premium</item>
+        <item>Large</item>
+        <item>Premium</item>
+    </string-array>
+    <string-array name="booking_payment">
+        <item>Cash</item>
+
+        <item>Cash</item>
+        <item>Visa</item>
+        <item>Master</item>
+        <item>Cash</item>
+        <item>Visa</item>
+    </string-array>
+
+    <!--history help menu dummy data-->
+    <string-array name="help_center_menu">
+        <item>Guide to Order</item>
+        <item>Product and Services</item>
+        <item>Tips and Fare</item>
+        <item>Account and Payment</item>
+        <item>Promo and Reward</item>
+        <item>Safety and Accident</item>
+        <item>How to Sign Up</item>
+    </string-array>
+
+    <!--history help menu dummy data-->
+    <integer-array name="notification_icon">
+        <item>@drawable/ic_speed</item>
+        <item>@drawable/ic_speed</item>
+        <item>@drawable/ic_speed</item>
+        <item>@drawable/ic_vehicle</item>
+        <item>@drawable/ic_speed</item>
+
+        <item>@drawable/ic_speed</item>
+        <item>@drawable/ic_speed</item>
+        <item>@drawable/ic_vehicle</item>
+        <item>@drawable/notif_message</item>
+    </integer-array>
+
+    <string-array name="notification_title">
+        <item>Over Posted Speed Limit</item>
+        <item>Over Speed > 80mph</item>
+        <item>Over Posted Speed Limit</item>
+        <item>Maintenance Alert</item>
+        <item>Over Posted Speed Limit</item>
+        <item>Over Posted Speed Limit</item>
+        <item>Over Speed > 80mph</item>
+        <item>Maintenance Alert</item>
+        <item>Over Posted Speed Limit</item>
+    </string-array>
+
+    <string-array name="notification_subtitle">
+        <item>Doing 76.43 mph on a 65 mph road on May 23, 2021, 8:08 pm.</item>
+        <item>Doing 84.51 on January 26, 2021, 1:57 pm.</item>
+        <item>Doing 76.43 mph on a 65 mph road on May 23, 2021, 8:08 pm.</item>
+        <item>Oil change reminder for vehicle 1FMCU0F79EUC08542</item>
+        <item>Doing 76.43 mph on a 65 mph road on May 23, 2021, 8:08 pm.</item>
+        <item>Doing 76.43 mph on a 65 mph road on May 23, 2021, 8:08 pm.</item>
+        <item>Doing 84.51 on January 26, 2021, 1:57 pm.</item>
+        <item>Oil change reminder for vehicle 1FMCU0F79EUC08542</item>
+        <item>Doing 76.43 mph on a 65 mph road on May 23, 2021, 8:08 pm.</item>
+    </string-array>
+
+</resources>

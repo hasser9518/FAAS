@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ensightplus.faas">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.ensightplus.faas.data.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity android:name="com.ensightplus.faas.ActivitySplash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.ensightplus.faas.ActivityLogin" />
+        <activity android:name="com.ensightplus.faas.ActivityMain" />
+        <activity android:name="com.ensightplus.faas.ActivityAssets" />
+        <activity android:name="com.ensightplus.faas.ActivityBooking" />
+        <activity android:name="com.ensightplus.faas.ActivityBookingHistoryDetails" />
+        <activity android:name="com.ensightplus.faas.ActivityTrackingHistory" />
+        <activity android:name="com.ensightplus.faas.ActivityEvent" />
+        <activity android:name="com.ensightplus.faas.ActivityPayment" />
+        <activity android:name="com.ensightplus.faas.ActivityHelpCenter" />
+        <activity android:name="com.ensightplus.faas.ActivityAlerts" />
+        <activity android:name="com.ensightplus.faas.ActivitySettings" />
+
+        <service
+            android:name="com.ensightplus.faas.services.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+
+    </application>
+
+</manifest>

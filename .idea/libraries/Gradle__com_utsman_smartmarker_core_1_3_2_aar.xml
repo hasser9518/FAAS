@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.utsman.smartmarker:core:1.3.2@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/50209d3fac13faf5e7ed25afd929ebe9/transformed/jetified-core-1.3.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/50209d3fac13faf5e7ed25afd929ebe9/transformed/jetified-core-1.3.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/50209d3fac13faf5e7ed25afd929ebe9/transformed/jetified-core-1.3.2/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.utsman.smartmarker/core/1.3.2/527eb07ab09cdd1d5a40026f369386a07e71318e/core-1.3.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.utsman.smartmarker/core/1.3.2/d8f6d99faf9a3dfa4384fae6b7ed533fe264a292/core-1.3.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
